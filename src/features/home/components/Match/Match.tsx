@@ -1,6 +1,6 @@
-import { MatchUI } from "../../../types/general-ui.types.ts";
-import TeamLogo from "../../../components/TeamLogo.tsx";
-import { ScoreDisplay } from "./ScoreDisplay.tsx";
+import { MatchUI } from "../../../../types/general-ui.types.ts";
+import TeamLogo from "../../../../components/TeamLogo.tsx";
+import { ScoreDisplay } from "../ScoreDisplay/ScoreDisplay.tsx";
 
 export const Match = ({ match }: { match: MatchUI }) => {
   return (

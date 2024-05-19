@@ -1,6 +1,6 @@
-import { useFetch } from "../../../hooks";
-import { API_URL } from "../../../general.consants.ts";
-import { Match } from "./Match.tsx";
+import { useFetch } from "../../../../hooks";
+import { API_URL } from "../../../../general.consants.ts";
+import { Match } from "../Match/Match.tsx";
 
 export const Home = () => {
   const { matches } = useFetch(API_URL);

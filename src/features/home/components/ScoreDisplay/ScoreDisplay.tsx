@@ -1,4 +1,4 @@
-import { MatchEventTypeUI } from "../../../types/general-ui.types.ts";
+import { MatchEventTypeUI } from "../../../../types/general-ui.types.ts";
 import { animated, useSpring } from "@react-spring/web";
 
 export const ScoreDisplay = ({
